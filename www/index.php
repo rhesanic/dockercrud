@@ -1,7 +1,7 @@
 <?php
 $mysqli = mysqli_connect('db', 'user', 'test', "myDb");
- 
-$result = mysqli_query($mysqli, "SELECT * FROM anggota ORDER BY id DESC");
+$query = 'SELECT * FROM anggota ORDER BY id DESC';
+$result = mysqli_query($mysqli, $query);
 ?>
  
 <html>
