@@ -1,5 +1,5 @@
 <?php
  
-$mysqli = mysqli_connect('db', 'user', 'test', "myDb") 
+$mysqli = mysqli_connect('db', 'user', 'test', "myDb"); 
  
 ?>
