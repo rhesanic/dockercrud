@@ -1,5 +1,5 @@
 <?php
-include_once("konfig.php");
+$mysqli = mysqli_connect('db', 'user', 'test', "myDb");
  
 $result = mysqli_query($mysqli, "SELECT * FROM anggota ORDER BY id DESC");
 ?>
