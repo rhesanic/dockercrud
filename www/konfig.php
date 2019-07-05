@@ -1,10 +1,13 @@
 <?php
+/**
+ * using mysqli_connect for database connection
+ */
  
-$Host = '172.17.0.1';
-$Name = 'crud_db';
-$Username = 'root';
-$Password = 'root';
+$databaseHost = '172.17.0.1';
+$databaseName = 'crud_db';
+$databaseUsername = 'root';
+$databasePassword = 'root';
  
-$mysqli = mysqli_connect($Host, $Username, $Password, $Name); 
+$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
  
 ?>
