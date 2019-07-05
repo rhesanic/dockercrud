@@ -5,7 +5,7 @@
  
 <body>
  
-	<form action="add.php" method="post" nama="form1">
+	<form action="tambah.php" method="post" nama="form1">
 		<table width="25%" border="0">
 			<tr> 
 				<td>nama</td>
